@@ -16,7 +16,7 @@ NLP model is used to condense the book summaries to make them suitable for the T
 Finally, in this step, images of condensed summaries are generated.
 
 ## Sample Output:
-Click on each image to see them in their actual size.
+Click on each image to see it in its actual size.
 
 <table>
  <tr>
