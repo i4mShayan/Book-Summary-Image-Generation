@@ -1,19 +1,44 @@
 # Book-Summary-Image-Generation
 ## Description
-This project involves working with raw crawled data of `16559` books and their summaries. The main steps involved in this project include Data Preprocessing, Exploratory Data Analysis (EDA), Natural Language Processing (NLP), and Computer Vision.
+Imagine capturing the essence of a book in a single image! This project tackled the challenge of processing summaries from a massive dataset of `16,559` books. The goal? To automatically generate images that reflect the vibe of each book.
 
-### 1. Data Preprocessing
-In this step, the raw crawled data of book titles and summaries is cleaned and transformed into a format that is suitable for analysis and the NLP model.
+## Project phases
+
+| Phase | Description |
+|--|--|
+| [*Data Preprocessing*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#1-data-preprocessing) | Cleaning and standardizing the raw data |
+| [*EDA*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#2-exploratory-data-analysis-eda) | Exploratory Data Analysis |
+| [*NLP*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#3-natural-language-processing-nlp) | Using Text summarization model to condense the book summaries |
+| [*Vision*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#4-computer-vision) | Using Text-to-image model to generate books images |
+| [*Sample Output*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#4-computer-vision) | 20 Sample Outputs |
+
+Here's a quick breakdown of each phase. For a deeper look, check out the details in the notebook!
+## 1. Data Preprocessing
+In this step, the [raw crawled data](data/booksummaries.txt) of book titles and summaries is cleaned and transformed into a format that is suitable for analysis and the NLP model.
 This involves removing duplicates, handling missing values, and standardizing the data.
 
-### 2. Exploratory Data Analysis (EDA)
-EDA involves exploring the data to gain insights and size of summary tokens.
+## 2. Exploratory Data Analysis (EDA)
+This step involves exploring the data to gain insights and the size of summary tokens.
 
-### 3. Natural Language Processing (NLP)
-NLP model is used to condense the book summaries to make them suitable for the Text-To-Image model.
+The challenge here is to find the best parameters for the Text summarization model.
 
-### 4. Computer Vision
+
+| Overview | Inliers |
+|--|--|
+|![image](https://github.com/i4mShayan/Book-Summary-Image-Generation/assets/29325256/f692a3f1-d361-44fb-91ef-667699d0289d) | ![image](https://github.com/i4mShayan/Book-Summary-Image-Generation/assets/29325256/ebacd2a2-fcec-4668-9789-ccaa836e75e3) |
+
+## 3. Natural Language Processing (NLP)
+The NLP model is used to condense the book summaries to make them suitable for the Text-To-Image model.
+
+The most effective model discovered for the task of summarizing long texts in our dataset is [a fine-tuned version of LongT5](https://huggingface.co/pszemraj/long-t5-tglobal-base-16384-book-summary), Which is an encoder-decoder longT5 model that is trained using book summaries.
+
+![image](https://github.com/i4mShayan/Book-Summary-Image-Generation/assets/29325256/cec9a38b-fb31-45d3-b986-1e83a63bc90f)
+
+## 4. Computer Vision
 Finally, in this step, images of condensed summaries are generated.
+I decided to use [SD-XL 1.0-base model](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) which was a pretty accurate model for the condensed summaries.
+
+![image](https://github.com/i4mShayan/Book-Summary-Image-Generation/assets/29325256/ee9927d9-7906-404e-910f-9c8b51cee48d)
 
 ## Sample Output:
 Click on each image to see it in its actual size.
