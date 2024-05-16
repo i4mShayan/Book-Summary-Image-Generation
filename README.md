@@ -6,11 +6,11 @@ Imagine capturing the essence of a book in a single image! This project tackled 
 
 | Phase | Description |
 |--|--|
-| [*Data Preprocessing*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#1-data-preprocessing) | Cleaning and standardizing the raw data |
-| [*EDA*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#2-exploratory-data-analysis-eda) | Exploratory Data Analysis |
-| [*NLP*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#3-natural-language-processing-nlp) | Using Text summarization model to condense the book summaries |
-| [*Vision*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#4-computer-vision) | Using Text-to-image model to generate books images |
-| [*Sample Output*](https://github.com/i4mShayan/Book-Summary-Image-Generation/edit/main/README.md#4-computer-vision) | 20 Sample Outputs |
+| [*Data Preprocessing*](#1-data-preprocessing) | Cleaning and standardizing the raw data |
+| [*EDA*](#2-exploratory-data-analysis-eda) | Exploratory Data Analysis |
+| [*NLP*](#3-natural-language-processing-nlp) | Using Text summarization model to condense the book summaries |
+| [*Vision*](#4-computer-vision) | Using Text-to-image model to generate books images |
+| [*Sample Output*](#sample-output) | 20 Sample Outputs |
 
 Here's a quick breakdown of each phase. For a deeper look, check out the details in the notebook!
 ## 1. Data Preprocessing
