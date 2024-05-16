@@ -10,7 +10,7 @@ Imagine capturing the essence of a book in a single image! This project tackled 
 | [*EDA*](#2-exploratory-data-analysis-eda) | Exploratory Data Analysis |
 | [*NLP*](#3-natural-language-processing-nlp) | Using Text summarization model to condense the book summaries |
 | [*Vision*](#4-computer-vision) | Using Text-to-image model to generate book images |
-| [*Sample Output*](#sample-output) | 20 Sample Outputs |
+| [*Sample Outputs*](#sample-outputs) | 20 Sample Outputs |
 
 Here's a quick breakdown of each phase. For a deeper look, check out the details in the notebook!
 ## 1. Data Preprocessing
@@ -40,7 +40,7 @@ I decided to use [SD-XL 1.0-base model](https://huggingface.co/stabilityai/stabl
 
 ![image](https://github.com/i4mShayan/Book-Summary-Image-Generation/assets/29325256/ee9927d9-7906-404e-910f-9c8b51cee48d)
 
-## Sample Output:
+## Sample Outputs:
 Click on each image to see it in its actual size.
 
 <table>
