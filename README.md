@@ -1,6 +1,6 @@
 # Book-Summary-Image-Generation
 ## Description
-Imagine capturing the essence of a book in a single image! This project tackled the challenge of processing summaries from a massive dataset of `16,559` books. The goal? To automatically generate images that reflect the vibe of each book.
+Imagine capturing the essence of a book in a single image! This project tackled the challenge of processing summaries from a big dataset of `16,559` books. The goal? To generate images that reflect the vibe of each book.
 
 ## Project phases
 
