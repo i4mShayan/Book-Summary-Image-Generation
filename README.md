@@ -9,7 +9,7 @@ Imagine capturing the essence of a book in a single image! This project tackled 
 | [*Data Preprocessing*](#1-data-preprocessing) | Cleaning and standardizing the raw data |
 | [*EDA*](#2-exploratory-data-analysis-eda) | Exploratory Data Analysis |
 | [*NLP*](#3-natural-language-processing-nlp) | Using Text summarization model to condense the book summaries |
-| [*Vision*](#4-computer-vision) | Using Text-to-image model to generate books images |
+| [*Vision*](#4-computer-vision) | Using Text-to-image model to generate book images |
 | [*Sample Output*](#sample-output) | 20 Sample Outputs |
 
 Here's a quick breakdown of each phase. For a deeper look, check out the details in the notebook!
